@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a task</title>
+    <link rel="stylesheet" href="createTaskstyles.css">
+</head>
+
+<body>
+    <div id="container">
+        <h1>Create a task</h1>
+        <form id="TaskForm">
+            <input type="text" placeholder="Enter Task Title" id="title" value="">
+            <input type="text" placeholder="Enter Task Description" id="Description" value="">
+            <select name="Status" id="Status">
+                <option value="Open">Open</option>
+                <option value="In-Progress">In-Progress</option>
+                <option value="Closed">Closed</option>
+            </select>
+            <input type="date" placeholder="Enter Task Due Data" id="DueDate" value="">
+            <input type="submit" id="submit">
+        </form>
+    </div>
+</body>
+</html>
+<script src="createTask.js"></script>

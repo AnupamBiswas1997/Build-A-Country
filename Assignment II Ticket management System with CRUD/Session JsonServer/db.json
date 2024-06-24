@@ -1,0 +1,25 @@
+{
+  "tickets": [
+    {
+      "id": "496f",
+      "title": "Task 3",
+      "description": "Task 3 Des",
+      "status": "Closed",
+      "dueDate": "2024-06-26"
+    },
+    {
+      "id": "4bf2",
+      "title": "Task 1",
+      "description": "Task",
+      "status": "In-Progress",
+      "dueDate": "2024-06-22"
+    },
+    {
+      "id": "a7bb",
+      "title": "Task 2",
+      "description": "Task 2 Des",
+      "status": "In-Progress",
+      "dueDate": "2024-06-25"
+    }
+  ]
+}

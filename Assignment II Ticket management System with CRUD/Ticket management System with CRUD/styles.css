@@ -1,0 +1,84 @@
+#tablehead{
+    font-size: 32px;
+    font-weight: 700;
+    color: black;
+}
+
+table{
+    border: 1px solid;
+}
+
+tr{
+    border: 1px solid;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 400;
+    color: black;
+}
+
+td{
+    border: 1px solid;
+}
+
+#container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .deleteButton{
+    height: 100%;
+    width: 100%;
+    font-size: 24px;
+} */
+
+
+button{
+    /* width: 100%; */
+    /* font-size: 20px; */
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px; 
+    transition: 0.3s ease all; 
+}
+
+button:hover{
+    background-color: #3e8e41; 
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.inputx{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    width: 96%;
+    font-size: 24px;
+}
+
+#container1{
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.deleteButton{
+    background-color: red;
+    width: 100%;
+}
+
+.editButton1, .editButton2, .editButton3{
+    background-color: skyblue;
+    float: right;
+}
+
